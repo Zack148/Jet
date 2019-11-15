@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>Menu</h2>
+
+        <div class="tab">
+            <button class="tablinks" onclick="foodMenu(event, 'Apps')">Appetizers & Salads</button>
+            <button class="tablinks" onclick="foodMenu(event, 'Burgers')">Burgers & Dinners</button>
+            <button class="tablinks" onclick="foodMenu(event, 'Sandwiches')">Sandwiches</button>
+            <button class="tablinks" onclick="foodMenu(event, 'Breakfast')">Breakfast</button>
+            <button class="tablinks" onclick="foodMenu(event, 'Beverages')">Beverages & Desserts</button>
+        </div>
+
+        <div id="Apps" class="tabcontent">
+
+            <!-- APPETIZERS -->
+            <h3>Appetizers</h3>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Menu Item</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">"Jet Fries"</th>
+                        <td>Sweet Potato, Garlic, Apple or Egg Plant Fries.</td>
+                        <td class="text-success">$2.95</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mozzarella or Zucchini Sticks</th>
+                        <td>Fried to a crispy golden brown outside and silky smooth inside.</td>
+                        <td class="text-success">$3.35</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Red Hook Ale Shrimp</th>
+                        <td>Red Hook Ale battered tender plump shrimp, Served with zesty orange sauce.</td>
+                        <td class="text-success">$5.50</td>
+                    </tr>
+                    <small>
+                        <caption class="text-success">(Sauce or dressing on the side is .30¢ extra)</caption>
+                    </small>
+                </tbody>
+            </table>
+
+            <hr>
+
+            <!-- FROM THE POT -->
+
+            <h3>From the Pot</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Menu Item</th>
+                        <th scope="col">Cup</th>
+                        <th scope="col">Bowl</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Soup of the day</th>
+                        <td class="text-success">$1.95</td>
+                        <td class="text-success">$2.50</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">"The Jet's" Homemade Chili</th>
+                        <td class="text-success">$2.55</td>
+                        <td class="text-success">$2.95</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <hr>
+
+            <!-- CHEF'S FRESH 'SIDE SALADS' -->
+            <!-- <h3>Chef's Fresh 'Side Salads'</h3>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Menu Item</th>
+                <th scope="col">Small</th>
+                <th scope="col">Large</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Vegetable Tossed Salad</th>
+                <td class="text-success">$2.50</td>
+                <td  class="text-success">$3.50</td>
+              </tr>
+              <tr>
+                <th scope="row">Fruit & Cottage Cheese</th>
+                <td class="text-success">$2.55</td>
+                <td class="text-success">$2.95</td>
+              </tr>
+            </tbody>
+          </table> -->
+
+            <!-- FRESH CRISP SALADS -->
+            <h3>Fresh Crisp Salads</h3>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Menu Item</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Spinach Salad</th>
+                        <td>Fresh spinach leaves, tomato, crip bacon, hard-boiled egg, croutons, honey mustard dressing
+                            and a roll.</td>
+                        <td class="text-success">$6.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Linda's Salad</th>
+                        <td>Fresh spring mix, with a generous helping of fresh raw veggies, choice of dressing, and a
+                            roll.</td>
+                        <td class="text-success">$6.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Ham or Turkey Juliene</th>
+                        <td>Salad greens with strips of ham or turkey, American cheese, hard-boiled egg, tomato, and a
+                            roll.</td>
+                        <td class="text-success">$6.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Steak, Chicken, or seafood Julienne</th>
+                        <td>Fresh crip greens, with grilled steak or chicken, or with crab meat and baby shrimp, along
+                            with shredded cheddar cheese, hard-boiled egg, tomato, and a roll.</td>
+                        <td class="text-success">$6.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Souvalaki Salad</th>
+                        <td>Steak or Chicken shish kabob, on top of salad greens, with onions, tomatoes, cucumbers, feta
+                            cheese, Calamata olives, greek dressing, & a pita.</td>
+                        <td class="text-success">$8.75</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Greek Salad</th>
+                        <td>Salad greens, onions, tomatoes, cucumbers, Calamata olives, feta cheese and greek dressing,
+                            served with a roll.</td>
+                        <td class="text-success">$6.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Caesar Salad</th>
+                        <td>Crisp Romaine lettuce tossed with Caesar dressing, tomatoes, croutons, parmesan cheese and
+                            Calamata olives, served with a roll.</td>
+                        <td class="text-success">$6.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Chicken Finger Salad</th>
+                        <td>Crisp salad greens, topeed with cheddar cheese , tomatoes, honey mustard dressing and
+                            chicken fingers, served with a roll.</td>
+                        <td class="text-success">$6.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Chicken Fiesta Salad</th>
+                        <td>Crisp salad greens tossed with fiesta dressing, tomatoes, cheddar cheese, served with a side
+                            of tortilla chips and grilled chicken.</td>
+                        <td class="text-success">$6.25</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Taco Salad</th>
+                        <td>Crisp salad greens, tortilla chips, topeed with homemade chili, cheddar cheese,
+                            onions, tomatoes, blackolives, salsa and sour cream.</td>
+                        <td class="text-success">$6.25</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Cajun Chicken Salad</th>
+                        <td>Cajun seasoned chicken served on top of fresh salad greens, honey mustard dressing, cheddar
+                            cheese, croutons, and tomatoes. Served with a roll.</td>
+                        <td class="text-success">$6.25</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Mexican Pita</th>
+                        <td>A warmed pita with fresh salad greens, grilled steak or chicken, cheddar cheese, tomatoes,
+                            blakc olives, onions, salsa & sour cream.</td>
+                        <td class="text-success">$6.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Reuben Salad</th>
+                        <td>Salad greens with corned beef, swiss cheese, kraut, tomatoes, Russian dressing, and a roll.
+                        </td>
+                        <td class="text-success">$6.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Stearn's Salad</th>
+                        <td>Includes chicken marinated with Stearn's sauce, chredded lettuce, onions, tomatoes, mayo,
+                            parmesan cheese, italian dressing, and pita bread.
+                        </td>
+                        <td class="text-success">$6.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sub Salads</th>
+                        <td>Your choice of turkey, ham or roast beef, with shredded lettuce, onion, tomatoes, mayo, oil,
+                            provolone, parmesan cheese, and pita bread.
+                        </td>
+                        <td class="text-success">$6.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">General Tso's Chicken Salad</th>
+                        <td>Fresh salad greens, spring mix, provolone cheese, tomatoes sautéed mushrooms and onions,
+                            general tso souce with crispy chicken, and pita bread.
+                        </td>
+                        <td class="text-success">$6.55</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Cold Salad Plate</th>
+                        <td>Tuna or Chicken Salad, served with cole slaw and cottage cheese, tomatoes, egg, American
+                            heese, and a roll.
+                        </td>
+                        <td class="text-success">$6.55</td>
+                    </tr>
+                    <small>
+                        <caption class="text-success">Bread Bowls .95¢ Add Chicken, Steak, or a Gardenburger to any
+                            salad for $2.50</caption>
+                    </small>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div id="Burgers" class="tabcontent">
+            <h3>Burgers</h3>
+            <p></p>
+        </div>
+
+        <div id="Sandwiches" class="tabcontent">
+            <h3>Sandwiches</h3>
+            <p></p>
+        </div>
+
+        <div id="Breakfast" class="tabcontent">
+            <h3>Breakfast</h3>
+            <p></p>
+        </div>
+
+        <div id="Beverages" class="tabcontent">
+            <h3>Beverages & Desserts</h3>
+            <p></p>
+        </div>
+
+    </div>
+
+
+    <script src="../js/menu.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
