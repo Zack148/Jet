@@ -51,3 +51,13 @@ body {font-family: Arial;}
 .background-contact {
     background-color: #F5F5F5;
 }
+
+/* No link line  */
+.no-underline {
+  text-decoration: none !important;
+}
+
+.navbar .navbar-light .navbar-nav{
+  background-image: url("../images/bannerBackground.jpg") !important;
+  background-repeat: repeat-x !important;
+}

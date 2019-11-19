@@ -10,270 +10,596 @@
 </head>
 
 <body>
-    <div class="container">
-        <h2>Menu</h2>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">The Collegiate Restaurant</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link " href="../index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="menu.html">Menu</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container py-2">
+        <div class="mx-auto text-center mb-3">
+            <h1 class="mt-0 text-primary">Our Menu</h1>
+            <p class="lead mb-3">Begin with a selection from our American or European cuisines.
+                We have home cooked meals at low prices.
+                Italian special breakfast anytime!</p>
+        </div>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="pills-appetizers-tab" data-toggle="pill" href="#pills-appetizers"
+                    role="tab" aria-controls="pills-appetizers" aria-selected="true">Appetizers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-fromThePot-tab" data-toggle="pill" href="#pills-fromThePot" role="tab"
+                    aria-controls="pills-fromThePot" aria-selected="false">From The Pot</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-sidesalad-tab" data-toggle="pill" href="#pills-sidesalad" role="tab"
+                    aria-controls="pills-sidesalad" aria-selected="false">Side Salads</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-crispsalad-tab" data-toggle="pill" href="#pills-crispsalad" role="tab"
+                    aria-controls="pills-crispsalad" aria-selected="false">Crisp Salads</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-burgers-tab" data-toggle="pill" href="#pills-burgers" role="tab"
+                    aria-controls="pills-burgers" aria-selected="false">Burgers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-hotdog-tab" data-toggle="pill" href="#pills-hotdog" role="tab"
+                    aria-controls="pills-hotdog" aria-selected="false">Hot Dogs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-dinners-tab" data-toggle="pill" href="#pills-dinners" role="tab"
+                    aria-controls="pills-dinners" aria-selected="false">Dinners</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-appetizers" role="tabpanel"
+                aria-labelledby="pills-appetizers-tab">
+                <div class="col-12 mt-4">
+                    <h3 class="text-center">Appetizers</h3>
+                    <p class="text-center"><small class="text-primary">(Sauce or dressing on the side is .30¢
+                            extra)</small></p>
+                    <hr class="accent my-5">
+                </div>
+                <div class="card-columns">
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$1.95</span>
+                        <h6 class="text-truncate">French Fries</h6>
+                        <p class="small">Golden fried to perfection.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$2.25</span>
+                        <h6 class="text-truncate">Onion Rings</h6>
+                        <p class="small">Battered, flash fried & crispy.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$5.50</span>
+                        <h6 class="text-truncate">Chicken Fingers [4]</h6>
+                        <p class="small">Breaded, flash fried & crispy.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$3.35</span>
+                        <h6 class="text-truncate">Pizza Logs</h6>
+                        <p class="small">Served with a side of Marinara Sauce.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$2.95</span>
+                        <h6>"Jet Fries"</h6>
+                        <p class="small">Sweet Potato, Garlic, Apple or Egg Plant Fries.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$3.35</span>
+                        <h6 class="text-truncate">Mozzarella or Zucchini Sticks</h6>
+                        <p class="small">Fried to a crspy golden brown outside and silky smooth inside.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$5.50</span>
+                        <h6 class="text-truncate">Red Hook Ale Shrimp</h6>
+                        <p class="small">Red Hook Ale battered tender plump shrimp, Served with zesty orange sauce.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-fromThePot" role="tabpanel" aria-labelledby="pills-fromThePot-tab">
+                <div class="col-12 mt-4">
+                    <h3 class="text-center">From The Pot</h3>
+                    <hr class="accent my-5">
+                </div>
+                <div class="card-columns">
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold">$1.95</span>
+                        <h6 class="text-truncate">Soup of the day</h6>
+                        <p class="small">The soup of the day comes in two sizes, a cup or bowl</p>
+                        <span class="font-weight-bold small">Bowl: $2.50</span>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold">$2.55</span>
+                        <h6 class="text-truncate">Homemade Chili</h6>
+                        <p class="small">Our homemade chili also comes in two sizes, a cup or bowl</p>
+                        <span class="font-weight-bold small">Bowl: $2.95</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-sidesalad" role="tabpanel" aria-labelledby="pills-sidesalad-tab">
+                <div class="col-12 mt-4">
+                    <h3 class="text-center">Chef's Fresh Side Salads</h3>
+                    <hr class="accent my-5">
+                </div>
+                <div class="card-columns">
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold">$2.50</span>
+                        <h6 class="text-truncate">Vegetable Tossed Salad</h6>
+                        <p class="small">Our salads are always fresh!</p>
+                        <div class="font-weight-bold small">large: $3.50</div>
+                    </div>
 
-        <div class="tab">
-            <button class="tablinks" onclick="foodMenu(event, 'Apps')">Appetizers & Salads</button>
-            <button class="tablinks" onclick="foodMenu(event, 'Burgers')">Burgers & Dinners</button>
-            <button class="tablinks" onclick="foodMenu(event, 'Sandwiches')">Sandwiches</button>
-            <button class="tablinks" onclick="foodMenu(event, 'Breakfast')">Breakfast</button>
-            <button class="tablinks" onclick="foodMenu(event, 'Beverages')">Beverages & Desserts</button>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold">$3.50</span>
+                        <h6>Fruit & Cottage Cheese</h6>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold">$2.95</span>
+                        <h6>Fruit Cup</h6>
+                    </div>
+                    <div class="card card-body">
+                        <h6 class="text-truncate">Dressings</h6>
+                        <div class="font-weight-bold small">French</div>
+                        <div class="font-weight-bold small">Blue Cheese</div>
+                        <div class="font-weight-bold small">Ranch</div>
+                        <div class="font-weight-bold small">Caesar</div>
+                        <div class="font-weight-bold small">Poppyseed</div>
+                        <div class="font-weight-bold small">Homemade Italian or Greek</div>
+                        <div class="font-weight-bold small">Russian</div>
+                        <div class="font-weight-bold small">Parmesan Peppercorn</div>
+                        <div class="font-weight-bold small">Sesame Ginger</div>
+                        <div class="font-weight-bold small">Catalina Lite</div>
+                        <div class="font-weight-bold small">FatFree Raspberry Vinaigrette</div>
+                    </div>
+                </div>
+                <div class="col-12 mt-4">
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-crispsalad" role="tabpanel" aria-labelledby="pills-crispsalad-tab">
+                <div class="col-12 mt-4">
+                    <h3 class="text-center">Fresh Crisp Salads</h3>
+                    <p class="text-center"><small class="text-primary">Bread Bowls .95¢ Add Chicken, Steak, or a
+                            Gardenburger to any salad for $2.50</small></p>
+                    <hr class="accent my-5">
+                </div>
+                <div class="card-columns">
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.25</span>
+                        <h6 class="text-truncate">Spinach Salad</h6>
+                        <p class="small">Fresh spinach leaves, tomato, crip bacon, hard-boiled egg, croutons, honey
+                            mustard dressing and a roll.</p>
+                        <span class="font-weight-bold small">Add Chicken: $5.25</span>
+                        <span class="font-weight-bold small">Add Salmon: $7.75</span>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.25</span>
+                        <h6 class="text-truncate">Linda's Salad</h6>
+                        <p class="small">Fresh spring mix, with a generous helping of fresh raw veggies, choice of
+                            dressing, and a roll.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.25</span>
+                        <h6 class="text-truncate">Ham or Turkey Julienne</h6>
+                        <p class="small">Salad greens with strips of ham or turkey, American cheese, hard-boiled
+                            egg,
+                            tomato, and a roll.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.25</span>
+                        <h6 class="text-truncate">Steak, Chicken, or Seafood Julienne</h6>
+                        <p class="small">Fresh crip greens, with grilled steak or chicken, or with crab meat and
+                            baby
+                            shrimp, along with shredded cheddar cheese, hard-boiled egg, tomato, and a roll.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$8.75</span>
+                        <h6>Souvalaki Salad</h6>
+                        <p class="small">Steak or Chicken shish kabob, on top of salad greens, with onions,
+                            tomatoes,
+                            cucumbers, feta cheese, Calamata olives, greek dressing, & a pita.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.25</span>
+                        <h6 class="text-truncate">Greek Salad</h6>
+                        <p class="small">Salad greens, onions, tomatoes, cucumbers, Calamata olives, feta cheese and
+                            greek dressing, served with a roll.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.25</span>
+                        <h6 class="text-truncate">Caesar Salad</h6>
+                        <p class="small">Crisp Romaine lettuce tossed with Caesar dressing, tomatoes, croutons,
+                            parmesan
+                            cheese and Calamata olives, served with a roll.
+                        </p>
+                    </div>
+
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.25</span>
+                        <h6 class="text-truncate">Chicken Finger Salad</h6>
+                        <p class="small">Crisp salad greens, topeed with cheddar cheese , tomatoes, honey mustard
+                            dressing and chicken fingers, served with a roll.
+                        </p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.25</span>
+                        <h6 class="text-truncate">Chicken Fiesta Salad</h6>
+                        <p class="small">Crisp salad greens tossed with fiesta dressing, tomatoes, cheddar cheese,
+                            served with a side of tortilla chips and grilled chicken.
+                        </p>
+                    </div>
+
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.25</span>
+                        <h6 class="text-truncate">Taco Salad</h6>
+                        <p class="small">Crisp salad greens, tortilla chips, topeed with homemade chili, cheddar
+                            cheese,
+                            onions, tomatoes, blackolives, salsa and sour cream.
+                        </p>
+                    </div>
+
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.25</span>
+                        <h6 class="text-truncate">Cajun Chicken Salad</h6>
+                        <p class="small">Cajun seasoned chicken served on top of fresh salad greens, honey mustard
+                            dressing, cheddar cheese, croutons, and tomatoes. Served with a roll.
+                        </p>
+                    </div>
+
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.25</span>
+                        <h6 class="text-truncate">Mexican Pita</h6>
+                        <p class="small">A warmed pita with fresh salad greens, grilled steak or chicken, cheddar
+                            cheese, tomatoes, blakc olives, onions, salsa & sour cream.
+                        </p>
+                    </div>
+
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.25</span>
+                        <h6 class="text-truncate">Reuben Salad</h6>
+                        <p class="small">Salad greens with corned beef, swiss cheese, kraut, tomatoes, Russian
+                            dressing,
+                            and a roll.
+                        </p>
+                    </div>
+
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.25</span>
+                        <h6 class="text-truncate">Stearn's Salad</h6>
+                        <p class="small">Includes chicken marinated with Stearn's sauce, chredded lettuce, onions,
+                            tomatoes, mayo, parmesan cheese, italian dressing, and pita bread.
+                        </p>
+                    </div>
+
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.25</span>
+                        <h6 class="text-truncate">Sub Salads</h6>
+                        <p class="small">Your choice of turkey, ham or roast beef, with shredded lettuce, onion,
+                            tomatoes, mayo, oil, provolone, parmesan cheese, and pita bread.
+                            and a roll.
+                        </p>
+                    </div>
+
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.55</span>
+                        <h6 class="text-truncate">General Tso's Chicken Salad</h6>
+                        <p class="small">Fresh salad greens, spring mix, provolone cheese, tomatoes sautéed
+                            mushrooms
+                            and onions, general tso souce with crispy chicken, and pita bread.
+                        </p>
+                    </div>
+
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.55</span>
+                        <h6 class="text-truncate">Cold Salad Plate</h6>
+                        <p class="small">Tuna or Chicken Salad, served with cole slaw and cottage cheese, tomatoes,
+                            egg,
+                            American heese, and a roll.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-burgers" role="tabpanel" aria-labelledby="pills-burgers-tab">
+                <div class="col-12 mt-4">
+                    <h3 class="text-center">Burgers</h3>
+                    <p class="text-center"><small class="text-primary">Add French Fries for $1.95</small></p>
+                    <hr class="accent my-5">
+                </div>
+                <div class="card-columns">
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$2.60</span>
+                        <h6 class="text-truncate">Cheeseburger</h6>
+                        <p class="small">Juicy 1/3 lb. burger with cheese.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$4.50</span>
+                        <h6 class="text-truncate">Hamburger Deluxe</h6>
+                        <p class="small">Juicy 1/3 lb. burger with lettuce, tomato, onion & mayo. Served with French
+                            Fries.</p>
+                        <div class="font-weight-bold small">Add cheese .30¢</div>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$3.95</span>
+                        <h6 class="text-truncate">QuarterMaster</h6>
+                        <p class="small">Lettuce, tomato, onion, Russian dressing, American cheese.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$4.50</span>
+                        <h6 class="text-truncate">Johnny Burger</h6>
+                        <p class="small">Lettuce, tomato, onion, Russian dressing, ham, Swisscheese.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$4.50</span>
+                        <h6>Garden Burger</h6>
+                        <p class="small">Lettuce, tomato, onion, Russian dressing, American Cheese, honey mustard
+                            dressing.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$4.75</span>
+                        <h6 class="text-truncate">Turkey Burger</h6>
+                        <p class="small">Lettuce, tomato, onion, mayo.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$4.50</span>
+                        <h6 class="text-truncate">Mushroom & Blue Cheese Burger</h6>
+                        <p class="small">Lettuce, tomato, onion, blue cheese, mushrooms.
+                        </p>
+                    </div>
+
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$4.50</span>
+                        <h6 class="text-truncate">Cajun Blue Cheese Burger</h6>
+                        <p class="small">Lettuce, tomato, onion, blue cheese, cajun seasoning.
+                        </p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$4.75</span>
+                        <h6 class="text-truncate">Salmon Burger</h6>
+                        <p class="small">Tartar sauce, lettuce, tomato.
+                        </p>
+                    </div>
+
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$4.50</span>
+                        <h6 class="text-truncate">Bacon BBQ Burger</h6>
+                        <p class="small">Lettuce, tomato, onion, bacon, bbq sauce, melted cheddar.
+                        </p>
+                    </div>
+
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$4.50</span>
+                        <h6 class="text-truncate">Greek Burger</h6>
+                        <p class="small">Homemade chili, meleted cheddar, lettuce, tomato.
+                        </p>
+                    </div>
+
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$4.50</span>
+                        <h6 class="text-truncate">Italian Sausage Burger</h6>
+                        <p class="small">Sauteed pepper & onions, sauce, mozzarella cheese.
+                        </p>
+                    </div>
+
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$4.75</span>
+                        <h6 class="text-truncate">Portabella Mushroom burger</h6>
+                        <p class="small">Sauteed wiht grilled onions, Romaine, tomato, parmesan cheese, honey
+                            mustard. A
+                            vegetarian delight!
+                        </p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$4.50</span>
+                        <h6 class="text-truncate">Hawiian Burger</h6>
+                        <p class="small">Pineapple ring, ham, Swiss cheese, honey mustard, lettuce.
+                        </p>
+                    </div>
+                </div>
+                <!-- <div class="col-12 mt-4">
+                        <h3 class="text-center">Hot Dogs</h3>
+                        <hr class="accent my-5">
+                    </div>
+                    <div class="card-columns">
+                        <div class="card card-body">
+                            <span class="float-right font-weight-bold text-success">$3.25</span>
+                            <h6 class="text-truncate">Texas hot</h6>
+                            <p class="small">Homemade Texas Hot Sauce, choped onions, & mustard.</p>
+                        </div>
+                        <div class="card card-body">
+                            <span class="float-right font-weight-bold text-success">$3.25</span>
+                            <h6 class="text-truncate">Chili Dog</h6>
+                            <p class="small">Home made chili, melted cheddar cheese, & onions.</p>
+                        </div>
+                        <div class="card card-body">
+                            <span class="float-right font-weight-bold text-success">$2.25</span>
+                            <h6 class="text-truncate">Build Your Own Dog</h6>
+                            <p class="small">Plain.</p>
+                            <div class="font-weight-bold small">ADD:</div>
+                            <div class="font-weight-bold small">Slaw or Krout .30¢</div>
+                            <div class="font-weight-bold small">Bacon .50¢</div>
+                            <div class="font-weight-bold small">Cheese .30¢</div>
+                            <div class="font-weight-bold small">Onions .10¢</div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="col-6 mx-auto">
+                    <div class="card card-body text-center">
+                        <h5 class="text-uppercase">Tuesday Only!</h5>
+                        <h6>Albondigas Soup</h6>
+                        <p class="small"> A steaming cup or bowl of Mexican meatball &amp; vegetable soup garnished with
+                            crispy tortilla strips and fresh cheddar-Jack cheese. If you like Mexican food try this!</p>
+                        <span class="float-right font-weight-bold text-success">$7</span>
+                    </div>
+                </div> -->
+            </div>
+            <div class="tab-pane fade" id="pills-hotdog" role="tabpanel" aria-labelledby="pills-hotdog-tab">
+                <div class="col-12 mt-4">
+                    <h3 class="text-center">Hot Dogs</h3>
+                    <hr class="accent my-5">
+                </div>
+                <div class="card-columns">
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$3.25</span>
+                        <h6 class="text-truncate">Texas hot</h6>
+                        <p class="small">Homemade Texas Hot Sauce, choped onions, & mustard.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$3.25</span>
+                        <h6 class="text-truncate">Chili Dog</h6>
+                        <p class="small">Home made chili, melted cheddar cheese, & onions.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$2.25</span>
+                        <h6 class="text-truncate">Build Your Own Dog</h6>
+                        <p class="small">Plain.</p>
+                        <div class="font-weight-bold small">ADD:</div>
+                        <div class="font-weight-bold small">Slaw or Krout .30¢</div>
+                        <div class="font-weight-bold small">Bacon .50¢</div>
+                        <div class="font-weight-bold small">Cheese .30¢</div>
+                        <div class="font-weight-bold small">Onions .10¢</div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-dinners" role="tabpanel" aria-labelledby="pills-dinners-tab">
+                <div class="col-12 mt-4">
+                    <h3 class="text-center">Dinners</h3>
+                    <p class="text-center"><small class="text-primary">All dinners are served with a choice of 2 side dishes, a roll and butter.</small></p>
+                    <hr class="accent my-5">
+                </div>
+                <div class="card card-body">
+                    <h6 class="text-truncate">Dinners</h6>
+                    <div class="font-weight-bold small">Monday: Beef on Weck</div>
+                    <div class="font-weight-bold small">Tuesday: Chef's Choice</div>
+                    <div class="font-weight-bold small float-right">Wednesday: Chicken & Biscuits </div>
+                    <div class="font-weight-bold small">Thursday: Italian Day</div>
+                    <div class="font-weight-bold small">Friday: Baked Mac N' Cheese</div>
+                </div>
+                <div class="card-columns">
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$8.95</span>
+                        <h6 class="text-truncate">Collegiate Sirloin Steak</h6>
+                        <p class="small">Juicy 9 oz. Sirloin Steak char-broiled to perfection.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$8.25</span>
+                        <h6 class="text-truncate">Center Cut Pork Chops</h6>
+                        <p class="small">Two lean, center cut pork chops, char-broiled to perfection.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$8.25</span>
+                        <h6 class="text-truncate">Baked Virginia Ham Steak</h6>
+                        <p class="small">Glazed and grilled to perfection.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$7.25</span>
+                        <h6 class="text-truncate">Steer Liver & Fried Onions</h6>
+                        <p class="small">Grilled w/ sauteed onions.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$7.95</span>
+                        <h6 class="text-truncate">Country Fried Steak</h6>
+                        <p class="small">Thinly sliced top round of beef, cubed, battered and deep fried, toped with our
+                            own hot gravy.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$7.25</span>
+                        <h6 class="text-truncate">Ground Round Steak & Gravy</h6>
+                        <p class="small">7oz. ground steak, toped with our own hot gravy.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$8.25</span>
+                        <h6 class="text-truncate">Breaded Veal Cutlet</h6>
+                        <p class="small">Breaded, toped with our own hot gravy.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$8.25</span>
+                        <h6 class="text-truncate">Chicken Finger Dinner</h6>
+                        <p class="small">5 lightly breaded chicken tenders, deep fried.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$7.95</span>
+                        <h6 class="text-truncate">Monday</h6>
+                        <p class="small">Beef on Weck.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$7.25</span>
+                        <h6 class="text-truncate">Homemade Meatloaf</h6>
+                        <p class="small">Tasty and homemade with our own hot gravy.</p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$8.25</span>
+                        <h6 class="text-truncate">Shrimp Basket</h6>
+                        <p class="small">Breaded & seasoned shrimp, deep fried. Served with cocktail sauce.
+                            </p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$6.25</span>
+                        <h6 class="text-truncate">Fried Tender Sweet Clams</h6>
+                        <p class="small">Breaded & seasoned clams, deep fried. Served with tartar sauce.
+                            </p>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$7.95</span>
+                        <h6 class="text-truncate">Fish Fry "Every Day" small (8oz)</h6>
+                        <div class="font-weight-bold small">large (11oz) Beer battered haddock <p class="text-success">$8.95</p></div>
+                    </div>
+                    <div class="card card-body">
+                        <span class="float-right font-weight-bold text-success">$7.95</span>
+                        <h6 class="text-truncate">Friday "Fresh" Fish Fry small (8oz)</h6>
+                        <div class="font-weight-bold small">large (11oz) Beer battered haddock <p class="text-success">$8.95</p></div>
+                    </div>
+                    <div class="col-12 mt-4">
+                            <h3 class="text-center">Available Sides</h3>
+                            <hr class="accent my-5">
+                        </div>
+                        <div class="card card-body">
+                                <h6 class="text-truncate">Sides</h6>
+                                <div class="font-weight-bold small">Hot Veggies</div>
+                                <div class="font-weight-bold small">Chef Salad</div>
+                                <div class="font-weight-bold small">Cottage Cheese</div>
+                                <div class="font-weight-bold small">Apple Sauce</div>
+                                <div class="font-weight-bold small">"Real" Mashed Potatoes</div>
+                                <div class="font-weight-bold small">French Fries</div>
+                                <div class="font-weight-bold small">Homemade Cole Slaw</div>
+                                <div class="font-weight-bold small">Macaroni Salad</div>
+                                <div class="font-weight-bold small">Potato Salad</div>
+                                <div class="font-weight-bold small">Ala Carte $1.75 ea. (except chef salad)</div>
+                            </div>
+                </div>
+                </div>
+
+            <!-- Footer -->
+            <footer>
+                <div class="footer-copyright text-center py-3">© The Collegiate Restaurant 2019:
+                    <a class="no-underline" href="mailto:john.ninos@gmail.com" target="_top">john.ninos@gmail.com</a>
+                    <a class="no-underline" href="tel:+6075879293">(607) 587-9293</a>
+                </div>
+            </footer>
         </div>
 
-        <div id="Apps" class="tabcontent">
 
-            <!-- APPETIZERS -->
-            <h3>Appetizers</h3>
-
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Menu Item</th>
-                        <th scope="col">Description</th>
-                        <th scope="col">Price</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">"Jet Fries"</th>
-                        <td>Sweet Potato, Garlic, Apple or Egg Plant Fries.</td>
-                        <td class="text-success">$2.95</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Mozzarella or Zucchini Sticks</th>
-                        <td>Fried to a crispy golden brown outside and silky smooth inside.</td>
-                        <td class="text-success">$3.35</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Red Hook Ale Shrimp</th>
-                        <td>Red Hook Ale battered tender plump shrimp, Served with zesty orange sauce.</td>
-                        <td class="text-success">$5.50</td>
-                    </tr>
-                    <small>
-                        <caption class="text-success">(Sauce or dressing on the side is .30¢ extra)</caption>
-                    </small>
-                </tbody>
-            </table>
-
-            <hr>
-
-            <!-- FROM THE POT -->
-
-            <h3>From the Pot</h3>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Menu Item</th>
-                        <th scope="col">Cup</th>
-                        <th scope="col">Bowl</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Soup of the day</th>
-                        <td class="text-success">$1.95</td>
-                        <td class="text-success">$2.50</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">"The Jet's" Homemade Chili</th>
-                        <td class="text-success">$2.55</td>
-                        <td class="text-success">$2.95</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <hr>
-
-            <!-- CHEF'S FRESH 'SIDE SALADS' -->
-            <!-- <h3>Chef's Fresh 'Side Salads'</h3>
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">Menu Item</th>
-                <th scope="col">Small</th>
-                <th scope="col">Large</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Vegetable Tossed Salad</th>
-                <td class="text-success">$2.50</td>
-                <td  class="text-success">$3.50</td>
-              </tr>
-              <tr>
-                <th scope="row">Fruit & Cottage Cheese</th>
-                <td class="text-success">$2.55</td>
-                <td class="text-success">$2.95</td>
-              </tr>
-            </tbody>
-          </table> -->
-
-            <!-- FRESH CRISP SALADS -->
-            <h3>Fresh Crisp Salads</h3>
-
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Menu Item</th>
-                        <th scope="col">Description</th>
-                        <th scope="col">Price</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Spinach Salad</th>
-                        <td>Fresh spinach leaves, tomato, crip bacon, hard-boiled egg, croutons, honey mustard dressing
-                            and a roll.</td>
-                        <td class="text-success">$6.25</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Linda's Salad</th>
-                        <td>Fresh spring mix, with a generous helping of fresh raw veggies, choice of dressing, and a
-                            roll.</td>
-                        <td class="text-success">$6.25</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Ham or Turkey Juliene</th>
-                        <td>Salad greens with strips of ham or turkey, American cheese, hard-boiled egg, tomato, and a
-                            roll.</td>
-                        <td class="text-success">$6.25</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Steak, Chicken, or seafood Julienne</th>
-                        <td>Fresh crip greens, with grilled steak or chicken, or with crab meat and baby shrimp, along
-                            with shredded cheddar cheese, hard-boiled egg, tomato, and a roll.</td>
-                        <td class="text-success">$6.25</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Souvalaki Salad</th>
-                        <td>Steak or Chicken shish kabob, on top of salad greens, with onions, tomatoes, cucumbers, feta
-                            cheese, Calamata olives, greek dressing, & a pita.</td>
-                        <td class="text-success">$8.75</td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row">Greek Salad</th>
-                        <td>Salad greens, onions, tomatoes, cucumbers, Calamata olives, feta cheese and greek dressing,
-                            served with a roll.</td>
-                        <td class="text-success">$6.25</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Caesar Salad</th>
-                        <td>Crisp Romaine lettuce tossed with Caesar dressing, tomatoes, croutons, parmesan cheese and
-                            Calamata olives, served with a roll.</td>
-                        <td class="text-success">$6.25</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Chicken Finger Salad</th>
-                        <td>Crisp salad greens, topeed with cheddar cheese , tomatoes, honey mustard dressing and
-                            chicken fingers, served with a roll.</td>
-                        <td class="text-success">$6.25</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Chicken Fiesta Salad</th>
-                        <td>Crisp salad greens tossed with fiesta dressing, tomatoes, cheddar cheese, served with a side
-                            of tortilla chips and grilled chicken.</td>
-                        <td class="text-success">$6.25</td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row">Taco Salad</th>
-                        <td>Crisp salad greens, tortilla chips, topeed with homemade chili, cheddar cheese,
-                            onions, tomatoes, blackolives, salsa and sour cream.</td>
-                        <td class="text-success">$6.25</td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row">Cajun Chicken Salad</th>
-                        <td>Cajun seasoned chicken served on top of fresh salad greens, honey mustard dressing, cheddar
-                            cheese, croutons, and tomatoes. Served with a roll.</td>
-                        <td class="text-success">$6.25</td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row">Mexican Pita</th>
-                        <td>A warmed pita with fresh salad greens, grilled steak or chicken, cheddar cheese, tomatoes,
-                            blakc olives, onions, salsa & sour cream.</td>
-                        <td class="text-success">$6.25</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Reuben Salad</th>
-                        <td>Salad greens with corned beef, swiss cheese, kraut, tomatoes, Russian dressing, and a roll.
-                        </td>
-                        <td class="text-success">$6.25</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Stearn's Salad</th>
-                        <td>Includes chicken marinated with Stearn's sauce, chredded lettuce, onions, tomatoes, mayo,
-                            parmesan cheese, italian dressing, and pita bread.
-                        </td>
-                        <td class="text-success">$6.25</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Sub Salads</th>
-                        <td>Your choice of turkey, ham or roast beef, with shredded lettuce, onion, tomatoes, mayo, oil,
-                            provolone, parmesan cheese, and pita bread.
-                        </td>
-                        <td class="text-success">$6.25</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">General Tso's Chicken Salad</th>
-                        <td>Fresh salad greens, spring mix, provolone cheese, tomatoes sautéed mushrooms and onions,
-                            general tso souce with crispy chicken, and pita bread.
-                        </td>
-                        <td class="text-success">$6.55</td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row">Cold Salad Plate</th>
-                        <td>Tuna or Chicken Salad, served with cole slaw and cottage cheese, tomatoes, egg, American
-                            heese, and a roll.
-                        </td>
-                        <td class="text-success">$6.55</td>
-                    </tr>
-                    <small>
-                        <caption class="text-success">Bread Bowls .95¢ Add Chicken, Steak, or a Gardenburger to any
-                            salad for $2.50</caption>
-                    </small>
-                </tbody>
-            </table>
-
-        </div>
-
-        <div id="Burgers" class="tabcontent">
-            <h3>Burgers</h3>
-            <p></p>
-        </div>
-
-        <div id="Sandwiches" class="tabcontent">
-            <h3>Sandwiches</h3>
-            <p></p>
-        </div>
-
-        <div id="Breakfast" class="tabcontent">
-            <h3>Breakfast</h3>
-            <p></p>
-        </div>
-
-        <div id="Beverages" class="tabcontent">
-            <h3>Beverages & Desserts</h3>
-            <p></p>
-        </div>
-
-    </div>
-
-
-    <script src="../js/menu.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+        <script src="../js/menu.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
