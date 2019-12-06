@@ -1,37 +1,4 @@
-body {
-  font-family: Arial;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-}
-
-.map-responsive{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-}
-.map-responsive iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-}
-
-.border {
-  border: 10px dotted black;
-  padding: 15px;
-  background: #F0F0F0;
-  background-clip: padding-box;
-  border-radius: 25px;
-}
+body {font-family: Arial;}
 
 /* Style the tab */
 .tab {
